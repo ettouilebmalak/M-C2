@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(to right, #81D4FA, #4FC3F7);
+    background: rgb(0, 179, 255);
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -98,7 +98,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background: linear-gradient(to right, #81D4FA, #4FC3F7);
+    background: rgb(0, 179, 255);
     text-align: center;
     color: #fff;
     padding: 15px;
