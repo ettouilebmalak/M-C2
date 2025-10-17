@@ -1,0 +1,107 @@
+/* Style Global */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to bottom, #F9FBFF, #E3F2FD);
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #81D4FA, #4FC3F7);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+
+
+/* Section d'introduction */
+.materiel {
+    text-align: center;
+    padding: 60px;
+    
+    color: #2E7D32;
+    border-radius: 0 0 50px 50px;
+}
+
+/* Produits & Contact */
+.products, .contact {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Grille Produits */
+.produits {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    gap: 25px;
+}
+
+
+.product {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Formulaire */
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4FC3F7;
+}
+
+button {
+    background-color: #4FC3F7;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0288D1;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #81D4FA, #4FC3F7);
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 50px 50px 0 0;
+}
